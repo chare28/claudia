@@ -10,12 +10,12 @@ uses
 {procedure ALTA ();
 procedure BAJA ();
 procedure MODIFICACION (); }
-procedure CONSULTA (r:t_nodo);
+procedure CONSULTA (r:t_punt_arbol);
 
 implementation
-procedure CONSULTA(r:t_nodo);  {lista}
+procedure CONSULTA(r:t_punt_arbol);  {lista}
 begin
-  with (r.info) do
+  with (r^.info) do
        begin
          writeln('DNI: ', DNI);
          writeln('Nombre y apellido: ', nomyape);

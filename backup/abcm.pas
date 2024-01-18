@@ -13,9 +13,9 @@ procedure MODIFICACION (); }
 procedure CONSULTA (r:t_nodo);
 
 implementation
-procedure CONSULTA(r:t_nodo);  {lista}
+procedure CONSULTA(r:t_punt_arbol);  {lista}
 begin
-  with (r.info) do
+  with (r^.info) do
        begin
          writeln('DNI: ', DNI);
          writeln('Nombre y apellido: ', nomyape);
@@ -25,7 +25,7 @@ begin
          writeln('Puntos de scoring: ', scoring);
          writeln('¿Se encuentra habilitado? (si/no): ', habilitado);
          writeln('Fecha de habilitacion: ', fechHabil);
-         //writeln('Cantidad de reincidencias: ', cantRein);
+         writeln('Cantidad de reincidencias: ', cantReinc);
        end;
 end;
 

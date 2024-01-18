@@ -17,7 +17,7 @@ type
     SAI,SAD:t_punt_arbol;
   end;
 procedure insertar_arbol (var nodo:t_punt_arbol; persona: conductores);
-procedure crear_arbol (var raiz:t_punt_arbol; var arch_cond:t_arch; var persona:conductores);
+procedure creararbol (var raiz:t_punt_arbol; var arch_cond:t_arch);
 //function preorden (raiz:t_punt_arbol; buscado:string): t_punt_arbol;
 //procedure guarda_reg_cond (var arch:t_arch; raiz_nombre, raiz_dni:t_punt_arbol; pos:byte; reg:conductores);
 implementation
@@ -36,9 +36,10 @@ begin
   insertar_arbol(nodo^.SAD,persona);
 end;
 
-procedure crear_arbol (var raiz:t_punt_arbol;var arch_cond:t_arch; var persona:conductores); {se deberia crear un arbol desde archivo, o el arbol se debe de ir construyendo y despues gusradr eso en el archivo}
+procedure creararbol (var raiz:t_punt_arbol;var arch_cond:t_arch); {se deberia crear un arbol desde archivo, o el arbol se debe de ir construyendo y despues gusradr eso en el archivo}
+var
+  persona:conductores;
 begin
-  abrir (arch_cond);
   while not EOF(arch_cond)do
   begin
        read(arch_cond,persona);

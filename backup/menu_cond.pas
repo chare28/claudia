@@ -20,6 +20,7 @@ creararbol(raiz,arch_cond);
 repeat
   clrscr;
   gotoxy(40,8);
+  writeln(filesize(arch_cond));
   writeln('1-alta');
   gotoxy(40,10);
   writeln('2-baja');

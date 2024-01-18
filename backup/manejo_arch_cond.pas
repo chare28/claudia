@@ -7,7 +7,7 @@ interface
 uses
   Classes, SysUtils;
 const
-  ruta= 'C:\archivos\CONDUCTORES\conductor.dat'  ;
+  ruta= '.\conductor.dat'  ;
   type
     conductores = record
       DNI: string [8];
@@ -33,7 +33,7 @@ procedure crear_abrir (var arch_cond:t_arch);
 begin
   assign (arch_cond,ruta);
   {$I-}
-  reset(arch_cond);
+  rewrite(arch_cond);
   {$I+}
   if IOresult<>0 then rewrite(arch_cond);
 end;
