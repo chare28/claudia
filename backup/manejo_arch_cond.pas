@@ -7,7 +7,7 @@ interface
 uses
   Classes, SysUtils;
 const
-  ruta= '.\conductor.dat'  ;
+  ruta= 'C:\archivos\CONDUCTORES\conductor.dat'  ;
   type
     conductores = record
       DNI: string [8];

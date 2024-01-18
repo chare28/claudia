@@ -41,7 +41,7 @@ begin
   abrir (arch_cond);
   while not EOF(arch_cond)do
   begin
-       read(arch_cond,persona);
+       read(arch_cond,conductores);
        insertar_arbol(raiz,persona);
   end;
 

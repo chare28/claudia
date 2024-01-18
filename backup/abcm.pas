@@ -25,7 +25,7 @@ begin
          writeln('Puntos de scoring: ', scoring);
          writeln('¿Se encuentra habilitado? (si/no): ', habilitado);
          writeln('Fecha de habilitacion: ', fechHabil);
-         writeln('Cantidad de reincidencias: ', cantReinc);
+         //writeln('Cantidad de reincidencias: ', cantRein);
        end;
 end;
 
