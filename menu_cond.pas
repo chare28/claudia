@@ -36,9 +36,9 @@ repeat
   readln(opcion);
 
   case opcion of
-  1: ALTA(raiz,persona);
+  1: ALTA(raiz,persona,arch_cond);
   //2: BAJA();
-  3:CONSULTA(raiz);
+  //3:
   //4: MODIFICACION();
   end;
 until opcion=0;

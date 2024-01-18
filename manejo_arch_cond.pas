@@ -22,8 +22,7 @@ const
     end;
     t_arch= file of conductores;
     t_punt_cond=^conductores;
-  var
-      arch_cond: t_arch;
+
   procedure crear_abrir(var arch_cond:t_arch);
   procedure crear (var arch_cond:t_arch);
   procedure abrir (var arch_cond:t_arch);

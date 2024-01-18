@@ -10,10 +10,10 @@ uses
 procedure ALTA (var r:t_punt_arbol; var persona:conductores);
 //procedure BAJA ();
 //procedure MODIFICACION (); }
-procedure CONSULTA (r:t_punt_arbol);
+procedure CONSULTA(persona:conductores);
 
 implementation
-procedure ALTA (var r:t_punt_arbol; var persona:conductores);
+procedure ALTA (var r:t_punt_arbol; var persona:conductores;var arch_cond:t_arch);
 
 begin
   clrscr;
@@ -56,15 +56,14 @@ begin
   writeln('Cantidad de reincidencias: ');
   gotoxy(40,39);
   readln(persona.cantReinc);
-  insertar_arbol(r,persona);
-
-
+  seek(arch_cond,filesize(arch_cond));
+  insertar_arbol(r,persona,filesize(arch_cond));
+  write(arch_cond,persona);
 end;
 
-procedure CONSULTA(r:t_punt_arbol);  {lista}
+procedure CONSULTA(persona:conductores);  {lista}
 begin
-  repeat
-  with (r^.info) do
+  with (persona) do
        begin
          writeln('DNI: ', DNI);
          writeln('Nombre y apellido: ', nomyape);
@@ -76,7 +75,6 @@ begin
          writeln('Fecha de habilitacion: ', fechHabil);
          writeln('Cantidad de reincidencias: ', cantReinc);
        end;
-  until (filesize(arch_cond));
 end;
 
 end.

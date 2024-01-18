@@ -33,7 +33,7 @@ procedure crear_abrir (var arch_cond:t_arch);
 begin
   assign (arch_cond,ruta);
   {$I-}
-  rewrite(arch_cond);
+  reset(arch_cond);
   {$I+}
   if IOresult<>0 then rewrite(arch_cond);
 end;

@@ -9,43 +9,44 @@
         <Filename Value="project_final_scoring.lpr"/>
         <IsPartOfProject Value="True"/>
         <CursorPos X="17" Y="3"/>
-        <UsageCount Value="25"/>
+        <UsageCount Value="26"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="menu_cond.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="5" Y="41"/>
-        <UsageCount Value="25"/>
+        <TopLine Value="7"/>
+        <CursorPos X="32" Y="24"/>
+        <UsageCount Value="26"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="manejo_arch_cond.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="13"/>
-        <CursorPos X="22"/>
-        <UsageCount Value="25"/>
+        <TopLine Value="17"/>
+        <CursorPos X="13" Y="26"/>
+        <UsageCount Value="26"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="crear_arbol.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="3"/>
-        <TopLine Value="21"/>
-        <CursorPos X="25" Y="33"/>
-        <UsageCount Value="25"/>
+        <TopLine Value="15"/>
+        <CursorPos X="11" Y="19"/>
+        <UsageCount Value="26"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="abcm.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="4"/>
-        <TopLine Value="52"/>
-        <CursorPos X="28" Y="79"/>
-        <UsageCount Value="25"/>
+        <TopLine Value="43"/>
+        <CursorPos X="11" Y="10"/>
+        <UsageCount Value="26"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -57,97 +58,17 @@
         <UsageCount Value="10"/>
       </Unit>
       <Unit>
-        <Filename Value="..\..\..\AppData\Local\Microsoft\Windows\INetCache\IE\0S2MVVUX\unit_arbol[1].pas"/>
+        <Filename Value="F:\AppData\Local\Microsoft\Windows\INetCache\IE\0S2MVVUX\unit_arbol[1].pas"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="10"/>
       </Unit>
       <Unit>
-        <Filename Value="..\..\..\AppData\Local\Microsoft\Windows\INetCache\IE\1SY9SNCY\unit_manejo_arbol[1].pas"/>
+        <Filename Value="F:\AppData\Local\Microsoft\Windows\INetCache\IE\1SY9SNCY\unit_manejo_arbol[1].pas"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="10"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="menu_cond.pas"/>
-        <Caret Line="24" Column="23" TopLine="10"/>
-      </Position>
-      <Position>
-        <Filename Value="menu_cond.pas"/>
-        <Caret Line="20" Column="22" TopLine="6"/>
-      </Position>
-      <Position>
-        <Filename Value="crear_arbol.pas"/>
-        <Caret Line="43" Column="16" TopLine="26"/>
-      </Position>
-      <Position>
-        <Filename Value="menu_cond.pas"/>
-        <Caret Line="39" Column="19" TopLine="25"/>
-      </Position>
-      <Position>
-        <Filename Value="menu_cond.pas"/>
-        <Caret Line="23" Column="32" TopLine="9"/>
-      </Position>
-      <Position>
-        <Filename Value="menu_cond.pas"/>
-        <Caret Line="37" Column="3"/>
-      </Position>
-      <Position>
-        <Filename Value="menu_cond.pas"/>
-        <Caret Line="15" Column="34"/>
-      </Position>
-      <Position>
-        <Filename Value="crear_arbol.pas"/>
-        <Caret Line="35" Column="37" TopLine="10"/>
-      </Position>
-      <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="37" TopLine="10"/>
-      </Position>
-      <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="16" Column="50"/>
-      </Position>
-      <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="19" Column="10" TopLine="3"/>
-      </Position>
-      <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="8" Column="37"/>
-      </Position>
-      <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="16" Column="70"/>
-      </Position>
-      <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="12" Column="3"/>
-      </Position>
-      <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="16" Column="60"/>
-      </Position>
-      <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="10" Column="54"/>
-      </Position>
-      <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="8" Column="55"/>
-      </Position>
-      <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="23" Column="48" TopLine="8"/>
-      </Position>
-      <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="25" Column="20" TopLine="10"/>
-      </Position>
-      <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="16" Column="60" TopLine="9"/>
-      </Position>
       <Position>
         <Filename Value="abcm.pas"/>
         <Caret Line="43" Column="18" TopLine="18"/>
@@ -187,6 +108,86 @@
       <Position>
         <Filename Value="menu_cond.pas"/>
         <Caret Line="38" Column="27"/>
+      </Position>
+      <Position>
+        <Filename Value="abcm.pas"/>
+        <Caret Line="79" Column="28" TopLine="52"/>
+      </Position>
+      <Position>
+        <Filename Value="menu_cond.pas"/>
+        <Caret Line="41" Column="5" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="abcm.pas"/>
+        <Caret Line="58" Column="10" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="abcm.pas"/>
+        <Caret Line="61" Column="28" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="crear_arbol.pas"/>
+        <Caret Line="30" Column="14" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="crear_arbol.pas"/>
+        <Caret Line="38" Column="54" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="crear_arbol.pas"/>
+        <Caret Line="36" Column="39" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="crear_arbol.pas"/>
+        <Caret Line="19" Column="83" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="crear_arbol.pas"/>
+        <Caret Line="34" Column="52" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="abcm.pas"/>
+        <Caret Line="61" Column="40" TopLine="45"/>
+      </Position>
+      <Position>
+        <Filename Value="abcm.pas"/>
+        <Caret Line="71" Column="51" TopLine="57"/>
+      </Position>
+      <Position>
+        <Filename Value="abcm.pas"/>
+        <Caret Line="13" Column="41"/>
+      </Position>
+      <Position>
+        <Filename Value="manejo_arch_cond.pas"/>
+        <Caret Line="20" Column="44" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="abcm.pas"/>
+        <Caret Line="59" TopLine="42"/>
+      </Position>
+      <Position>
+        <Filename Value="menu_cond.pas"/>
+        <Caret Line="40" Column="25" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="menu_cond.pas"/>
+        <Caret Line="39" Column="33" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="abcm.pas"/>
+        <Caret Line="10" Column="83"/>
+      </Position>
+      <Position>
+        <Filename Value="menu_cond.pas"/>
+        <Caret Line="39" Column="33" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="abcm.pas"/>
+        <Caret Line="10" Column="11" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="menu_cond.pas"/>
+        <Caret Line="24" Column="32" TopLine="7"/>
       </Position>
     </JumpHistory>
     <RunParams>
