@@ -14,6 +14,7 @@ var
 opcion: byte;
 arch_cond: t_arch;
 raiz:t_punt_arbol;
+persona: conductores;
 begin
 crear_abrir(arch_cond);
 creararbol(raiz,arch_cond);
@@ -31,14 +32,15 @@ repeat
   writeln('0-salir');
   gotoxy(40,18);
   writeln('INGRESE OPCION');
+  gotoxy(40,19);
   readln(opcion);
 
-  //case opcion of
-  //1: ALTA();
+  case opcion of
+  1: ALTA(raiz,persona);
   //2: BAJA();
-  //3: if raiz=nil then writeln('no') else CONSULTA(raiz);
+  3:CONSULTA(raiz);
   //4: MODIFICACION();
-  //end;
+  end;
 until opcion=0;
 cerrar (arch_cond);
 end;

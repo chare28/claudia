@@ -40,7 +40,6 @@ procedure creararbol (var raiz:t_punt_arbol;var arch_cond:t_arch); {se deberia c
 var
   persona:conductores;
 begin
-  abrir (arch_cond);
   while not EOF(arch_cond)do
   begin
        read(arch_cond,persona);

@@ -30,9 +30,9 @@ begin
     nodo^.SAI:= nil;
     nodo^.SAD:=nil;
   end
-  else if persona.nomyape< nodo^.info.nomyape then
+  else if persona.dni< nodo^.info.dni then
   insertar_arbol(nodo^.SAI, persona)
-  else if persona.nomyape>nodo^.info.nomyape then
+  else if persona.dni>nodo^.info.dni then
   insertar_arbol(nodo^.SAD,persona);
 end;
 
