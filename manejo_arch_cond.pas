@@ -7,7 +7,7 @@ interface
 uses
   Classes, SysUtils;
 const
-  ruta= '.\conductor.dat'  ;
+  ruta= 'C:\archivos\CONDUCTORES\conductor.dat'  ;
   type
     conductores = record
       DNI: string [8];
@@ -16,7 +16,7 @@ const
       nTelefono: string [20];
       email: string [100];
       scoring: byte;
-      habilitado: string[2];
+      habilitado: boolean;
       fechHabil: string [10];
       cantReinc: byte;
     end;
@@ -51,7 +51,6 @@ begin
   close(arch_cond);
 end;
 end.
-
 
 
 

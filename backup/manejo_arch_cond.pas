@@ -7,7 +7,7 @@ interface
 uses
   Classes, SysUtils;
 const
-  ruta= '.\conductor.dat'  ;
+  ruta= 'C:\archivos\CONDUCTORES\conductor.dat'  ;
   type
     conductores = record
       DNI: string [8];
@@ -16,27 +16,28 @@ const
       nTelefono: string [20];
       email: string [100];
       scoring: byte;
-      habilitado: string[2];
+      habilitado: boolean;
       fechHabil: string [10];
       cantReinc: byte;
     end;
     t_arch= file of conductores;
-    t_punt_cond=^conductores;
-  var
-      arch_cond: t_arch;
+//    t_punt_cond=^t_nodo;
+
   procedure crear_abrir(var arch_cond:t_arch);
   procedure crear (var arch_cond:t_arch);
   procedure abrir (var arch_cond:t_arch);
   procedure cerrar (var arch_cond:t_arch);
 implementation
-procedure crear_abrir (var arch_cond:t_arch);
+procedure crear_abrir(var arch_cond: t_arch);
 begin
-  assign (arch_cond,ruta);
+  assign(arch_cond, ruta);
   {$I-}
   reset(arch_cond);
+  if IOResult <> 0 then
+    rewrite(arch_cond);
   {$I+}
-  if IOresult<>0 then rewrite(arch_cond);
 end;
+
 procedure crear (var arch_cond:t_arch);
  begin
    assign(arch_cond,ruta);
@@ -52,7 +53,6 @@ begin
   close(arch_cond);
 end;
 end.
-
 
 
 

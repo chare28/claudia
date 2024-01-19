@@ -8,45 +8,73 @@
       <Unit>
         <Filename Value="project_final_scoring.lpr"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos X="17" Y="3"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="40"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="menu_cond.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="7"/>
-        <CursorPos X="32" Y="24"/>
-        <UsageCount Value="26"/>
+        <TopLine Value="18"/>
+        <CursorPos X="42" Y="43"/>
+        <UsageCount Value="40"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="manejo_arch_cond.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="17"/>
-        <CursorPos X="13" Y="26"/>
-        <UsageCount Value="26"/>
+        <CursorPos X="32" Y="23"/>
+        <UsageCount Value="40"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="crear_arbol.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
-        <TopLine Value="15"/>
-        <CursorPos X="11" Y="19"/>
-        <UsageCount Value="26"/>
+        <TopLine Value="36"/>
+        <CursorPos X="25" Y="51"/>
+        <UsageCount Value="40"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="abcm.pas"/>
         <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="10"/>
+        <UsageCount Value="40"/>
+      </Unit>
+      <Unit>
+        <Filename Value="manejo_registro.pas"/>
+        <IsPartOfProject Value="True"/>
         <EditorIndex Value="4"/>
-        <TopLine Value="43"/>
-        <CursorPos X="11" Y="10"/>
-        <UsageCount Value="26"/>
+        <TopLine Value="57"/>
+        <CursorPos X="35" Y="78"/>
+        <UsageCount Value="34"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="borrardatosarchivounit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="BorrarDatosArchivoUnit"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="33"/>
+      </Unit>
+      <Unit>
+        <Filename Value="manejo_registro_mal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="9"/>
+        <UsageCount Value="24"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="5"/>
+        <CursorPos X="21" Y="18"/>
+        <UsageCount Value="24"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -55,139 +83,135 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="4"/>
         <CursorPos X="63" Y="20"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
-        <Filename Value="F:\AppData\Local\Microsoft\Windows\INetCache\IE\0S2MVVUX\unit_arbol[1].pas"/>
+        <Filename Value="..\..\..\AppData\Local\Microsoft\Windows\INetCache\IE\0S2MVVUX\unit_arbol[1].pas"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
-        <Filename Value="F:\AppData\Local\Microsoft\Windows\INetCache\IE\1SY9SNCY\unit_manejo_arbol[1].pas"/>
+        <Filename Value="..\..\..\AppData\Local\Microsoft\Windows\INetCache\IE\1SY9SNCY\unit_manejo_arbol[1].pas"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="29">
+    <JumpHistory HistoryIndex="28">
       <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="43" Column="18" TopLine="18"/>
+        <Filename Value="manejo_registro.pas"/>
+        <Caret Line="89" Column="5" TopLine="4"/>
       </Position>
       <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="10" Column="65"/>
-      </Position>
-      <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="44" Column="27" TopLine="23"/>
+        <Filename Value="manejo_registro.pas"/>
+        <Caret Line="73" Column="12" TopLine="58"/>
       </Position>
       <Position>
         <Filename Value="menu_cond.pas"/>
-        <Caret Line="37" Column="20" TopLine="17"/>
+        <Caret Line="40" Column="5" TopLine="21"/>
       </Position>
       <Position>
         <Filename Value="menu_cond.pas"/>
-        <Caret Line="41" Column="3" TopLine="17"/>
+        <Caret Line="39" Column="4" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="8" Column="53"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="13" Column="53"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="10" Column="53"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="16" Column="20"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="19" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="20" Column="13"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="19" Column="22"/>
+      </Position>
+      <Position>
+        <Filename Value="manejo_registro.pas"/>
+        <Caret Line="85" Column="29" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="manejo_registro.pas"/>
+        <Caret Line="82" Column="6" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="manejo_registro.pas"/>
+        <Caret Line="8" Column="59"/>
+      </Position>
+      <Position>
+        <Filename Value="manejo_registro.pas"/>
+        <Caret Line="85" Column="21" TopLine="58"/>
       </Position>
       <Position>
         <Filename Value="menu_cond.pas"/>
-        <Caret Line="37" Column="15" TopLine="17"/>
+        <Caret Line="42" Column="26" TopLine="20"/>
       </Position>
       <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="16" Column="61" TopLine="5"/>
-      </Position>
-      <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="10" Column="60"/>
+        <Filename Value="manejo_registro.pas"/>
+        <Caret Line="15"/>
       </Position>
       <Position>
         <Filename Value="menu_cond.pas"/>
-        <Caret Line="37" Column="25" TopLine="17"/>
+        <Caret Line="42" Column="25" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="10" Column="47"/>
       </Position>
       <Position>
         <Filename Value="menu_cond.pas"/>
-        <Caret Line="38" Column="27"/>
+        <Caret Line="20" Column="18"/>
       </Position>
       <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="79" Column="28" TopLine="52"/>
-      </Position>
-      <Position>
-        <Filename Value="menu_cond.pas"/>
-        <Caret Line="41" Column="5" TopLine="27"/>
-      </Position>
-      <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="58" Column="10" TopLine="41"/>
-      </Position>
-      <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="61" Column="28" TopLine="41"/>
-      </Position>
-      <Position>
-        <Filename Value="crear_arbol.pas"/>
-        <Caret Line="30" Column="14" TopLine="14"/>
-      </Position>
-      <Position>
-        <Filename Value="crear_arbol.pas"/>
-        <Caret Line="38" Column="54" TopLine="15"/>
-      </Position>
-      <Position>
-        <Filename Value="crear_arbol.pas"/>
-        <Caret Line="36" Column="39" TopLine="19"/>
-      </Position>
-      <Position>
-        <Filename Value="crear_arbol.pas"/>
-        <Caret Line="19" Column="83" TopLine="7"/>
-      </Position>
-      <Position>
-        <Filename Value="crear_arbol.pas"/>
-        <Caret Line="34" Column="52" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="61" Column="40" TopLine="45"/>
-      </Position>
-      <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="71" Column="51" TopLine="57"/>
-      </Position>
-      <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="13" Column="41"/>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="17" Column="23"/>
       </Position>
       <Position>
         <Filename Value="manejo_arch_cond.pas"/>
-        <Caret Line="20" Column="44" TopLine="7"/>
+        <Caret Line="40" TopLine="16"/>
       </Position>
       <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="59" TopLine="42"/>
+        <Filename Value="manejo_arch_cond.pas"/>
+        <Caret Line="26" Column="3" TopLine="10"/>
       </Position>
       <Position>
-        <Filename Value="menu_cond.pas"/>
-        <Caret Line="40" Column="25" TopLine="11"/>
+        <Filename Value="manejo_arch_cond.pas"/>
+        <Caret Line="31" TopLine="10"/>
       </Position>
       <Position>
-        <Filename Value="menu_cond.pas"/>
-        <Caret Line="39" Column="33" TopLine="26"/>
+        <Filename Value="manejo_arch_cond.pas"/>
+        <Caret Line="40" TopLine="13"/>
       </Position>
       <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="10" Column="83"/>
+        <Filename Value="crear_arbol.pas"/>
+        <Caret Line="42" Column="43" TopLine="27"/>
       </Position>
       <Position>
-        <Filename Value="menu_cond.pas"/>
-        <Caret Line="39" Column="33" TopLine="26"/>
+        <Filename Value="manejo_registro.pas"/>
+        <Caret Line="67" Column="10" TopLine="41"/>
       </Position>
       <Position>
-        <Filename Value="abcm.pas"/>
-        <Caret Line="10" Column="11" TopLine="43"/>
+        <Filename Value="crear_arbol.pas"/>
+        <Caret Line="51" Column="38" TopLine="29"/>
       </Position>
       <Position>
-        <Filename Value="menu_cond.pas"/>
-        <Caret Line="24" Column="32" TopLine="7"/>
+        <Filename Value="crear_arbol.pas"/>
+        <Caret Line="52" Column="31" TopLine="36"/>
       </Position>
     </JumpHistory>
     <RunParams>
